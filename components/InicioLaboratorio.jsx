@@ -1,4 +1,5 @@
 import React from 'react'
+import "./styles.css";
 import { CardUniversidades } from './CardUniversidades';
 import { Header } from './Header';
 import { useNavigate } from 'react-router-dom';
@@ -27,12 +28,12 @@ export const InicioLaboratorio = () => {
         <h2 className="white-text d-flex justify-content-center">Bienvenidos a laboratorios</h2>
       </div>
 
-      <div className="container mt-5">
+      <div className="container mt-5 ">
         <div className="row justify-content-center">
           <div class="card text-center" style={{ background: '#dee3e9' }}>
             <div class="card-header" >
               <ul class="nav nav-tabs card-header-tabs" >
-                <li class="nav-item" >
+                <li class="nav-item " >
                   <a class="nav-link active" onClick={Inicio} >Inicio</a>
                 </li>
                 <li class="nav-item">
@@ -44,7 +45,7 @@ export const InicioLaboratorio = () => {
               </ul>
             </div>
 
-  <CardUniversidades />
+            <CardUniversidades />
 
           </div>
         </div>

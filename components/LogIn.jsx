@@ -1,35 +1,39 @@
-import React from 'react'
-import "./styles.css"
+import React from 'react';
+import "./styles.css";
 import logo from '/img/logo-ceutec-retina.png';
-import Fondo2 from '/img/fondo2.png';
+import JaguarLogin1 from '/img/jaguarLogin.webp';
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios';
 
-export const LogIn = () => {  
 
+export const LogIn = () => {  
     const navegar = useNavigate();
+    
 
     const IniciarSesion = () => {
         navegar('/inicioLaboratorio');
     }
+
     const Registro = () => {
         navegar('/registro');
     }
 
+
     return (
         <>
-            <div className="container mt-5">
-                <div className="d-flex justify-content-center">
-                    <h1 className="white-text d-flex justify-content-center">Laboratorios</h1>
+           <div className="full-login-background custom-background">
+                <div className="d-flex justify-content-center mt-5">
+                    <h1 className="white-text text-center">Laboratorios</h1>
                     <img className="logo" src={logo} alt="Logo" />
                 </div>
-
-                <h5 className="white-text ms-3 mt-4">Inicio de sesión</h5>
-                <div className="d-flex justify-content-start">
+                <div className="d-flex justify-content-center mt-4">
+                <div className="d-flex justify-content-center mt-5">
                     <div className="card">
-                        <div className="card-body">
+          
+                        <h5 className="text-center mt-4">Inicio de sesión</h5>
+                        
+                        <div className="card-body mt-2">
                             <form>
-                              
                                 <div className="form-floating mb-3">
                                     <input type="email" className="form-control" id="correo"  />
                                     <label>Correo electrónico</label>
@@ -45,8 +49,10 @@ export const LogIn = () => {
                                 </div>
                             </form>
                         </div>
-                    </div>
+                    </div>  
+                    <img className="JaguarLogin1 d-none d-md-block" src={JaguarLogin1} alt="Logo" />
                 </div>
+            </div>
             </div>
         </>
     )

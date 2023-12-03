@@ -1,10 +1,50 @@
-
 body {
-    background-color: rgb(38, 38, 129);
-    background-size: cover; 
-    background-repeat: no-repeat; 
-  }
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(15deg,  #d33f34 50%, #a61322 50.1%);
+}
+
+.full-login-background {
+  background-color: rgb(112, 18, 141), 0, 212; 
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
   
+	background-size: 400% 400%;
+	animation: gradient 11s ease infinite;
+	height: 100vh;
+}
+
+.registro-background {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(15deg,  #d33f34 50%, #a61322 50.1%);
+}
+
+
+
+
+  .JaguarLogin1 {
+    width: 250px; 
+    height: auto; 
+    margin-left: 1px; 
+}
+
+.JaguarLogin2 {
+  width: 70%;
+  max-width: 80px; 
+  height: auto; 
+  border: none; 
+  margin-top: 1%; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
 .card {
     padding: 0%;
   }

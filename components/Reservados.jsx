@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom'
 export const Reservados = () => {
     const navegar = useNavigate();
 
-    
+
     const Reservados = () => {
         navegar('/reservados');
     }
@@ -20,12 +20,12 @@ export const Reservados = () => {
 
     return (
         <>
-            
-            <Header />  
+
+            <Header />
             <div className="d-flex justify-content-center mt-5">
                 <h2 className="white-text d-flex justify-content-center">Bienvenidos a laboratorios</h2>
             </div>
-            
+
             <div className="container mt-5">
                 <div className="row justify-content-center">
                     <div class="card text-center" style={{ background: '#dee3e9' }}>
@@ -42,9 +42,11 @@ export const Reservados = () => {
                                 </li>
                             </ul>
                         </div>
-
-                        <CardReserva />    
                         
+                        <div className="d-flex mx-3">
+                            <CardReserva />
+                        </div>
+
                     </div>
                 </div>
             </div>

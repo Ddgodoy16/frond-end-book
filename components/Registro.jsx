@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
+import JaguarLogin1 from '/img/LOGO.jpg';
 import { useNavigate } from 'react-router-dom';
-import axios from 'axios'; // Importa Axios de esta manera
+import axios from 'axios';
 
-const url = "http://localhost:3000/usuarios"
+const url = "http://localhost:3000/api/registrarUsuarios"
 
 export const Registro = () => {
     const [dataFormulario, setDataFormulario] = useState({
@@ -31,13 +32,15 @@ export const Registro = () => {
     }
     return (
         <>
-            <div className="container mt-5">
-                <h5 className="white-text text-center mt-4">Registro</h5>
-                <div className="d-flex justify-content-center">
+            <div className="registro-background">
+
+                <div className="d-flex justify-content-center mt-3">
                     <div className="card">
+                        <img className="JaguarLogin2 " src={JaguarLogin1} alt="Logo" />
                         <div className="card-body">
                             <form>
-                                <div className="form-floating mb-3">
+                                <h5 className=" text-center ">Ingresa tus datos</h5>
+                                <div className="form-floating mt-4 mb-3">
                                     <input type="text" className="form-control" id="nombre" name="Nombre" value={dataFormulario.Nombre} onChange={handleChange} />
                                     <label htmlFor="nombre">Nombre</label>
                                 </div>
@@ -54,20 +57,17 @@ export const Registro = () => {
                                     <label htmlFor="telefono">Teléfono</label>
                                 </div>
 
-                                <div className="form-check">
-                                    <input type="radio" className="form-check-input" id="alumno" name="tipoUsuario" value="Alumno" onChange={handleChange} />
-                                    <label className="form-check-label" htmlFor="alumno">
-                                        Alumno
-                                    </label>
-                                </div>
-                                <div className="form-check">
-                                    <input type="radio" className="form-check-input" id="maestro" name="tipoUsuario" value="Maestro" onChange={handleChange} />
-                                    <label className="form-check-label" htmlFor="maestro">
-                                        Maestro
-                                    </label>
-                                </div>
+                                <div className="d-flex flex-row">
+                                    <div className="form-check me-3">
+                                        <input type="radio" className="form-check-input" id="alumno" name="tipoUsuario" value="Alumno" onChange={handleChange} />
+                                        <label className="form-check-label" htmlFor="alumno"> Alumno</label>
+                                    </div>
 
-
+                                    <div className="form-check">
+                                        <input type="radio" className="form-check-input" id="maestro" name="tipoUsuario" value="Maestro" onChange={handleChange} />
+                                        <label className="form-check-label" htmlFor="maestro"> Maestro </label>
+                                    </div>
+                                </div>
 
 
                                 <div className="d-flex flex-column align-items-center mt-4">
@@ -84,6 +84,7 @@ export const Registro = () => {
                     </div>
                 </div>
             </div>
+
         </>
     )
 }
