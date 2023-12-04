@@ -50,8 +50,8 @@ export const Bitacora = () => {
 
 
             {/* 1 */}
-            <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal fade " id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg " role="document">
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -59,8 +59,57 @@ export const Bitacora = () => {
                             </button>
                         </div>
                         <h5 className='text-center'>Laboratorios Centroamérica - Tegucigalpa</h5>
-                        <div class="modal-body">
-                            <div className="row justify-content-center mt-4">
+                        <div class="modal-body bg-dark">
+                            <div className="row justify-content-center mt-4 bg-light">
+                                <div className="col-md-8">
+                                    <p>
+                                        <strong>Estudiante:</strong> Fernando Lopez |
+                                        <strong>Laboratorio:</strong> Laboratorio 001 |
+                                        <strong>Fecha:</strong> 2023-11-10 |
+                                        <strong>Hora de inicio:</strong> 10:00 AM |
+                                        <strong>Hora de finalización:</strong> 12:00 PM
+                                    </p>
+                                </div>
+                            </div>
+                            
+
+                            <div className="row justify-content-center mt-4 bg-light">
+                                <div className="col-md-8">
+                                    <p>
+                                        <strong>Estudiante:</strong> Fernando Lopez |
+                                        <strong>Laboratorio:</strong> Laboratorio 001 |
+                                        <strong>Fecha:</strong> 2023-11-10 |
+                                        <strong>Hora de inicio:</strong> 10:00 AM |
+                                        <strong>Hora de finalización:</strong> 12:00 PM
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="row justify-content-center mt-4 bg-light">
+                                <div className="col-md-8">
+                                    <p>
+                                        <strong>Estudiante:</strong> Fernando Lopez |
+                                        <strong>Laboratorio:</strong> Laboratorio 001 |
+                                        <strong>Fecha:</strong> 2023-11-10 |
+                                        <strong>Hora de inicio:</strong> 10:00 AM |
+                                        <strong>Hora de finalización:</strong> 12:00 PM
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div className="row justify-content-center mt-4 bg-light">
+                                <div className="col-md-8">
+                                    <p>
+                                        <strong>Estudiante:</strong> Fernando Lopez |
+                                        <strong>Laboratorio:</strong> Laboratorio 001 |
+                                        <strong>Fecha:</strong> 2023-11-10 |
+                                        <strong>Hora de inicio:</strong> 10:00 AM |
+                                        <strong>Hora de finalización:</strong> 12:00 PM
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="row justify-content-center mt-4 bg-light">
                                 <div className="col-md-8">
                                     <p>
                                         <strong>Estudiante:</strong> Fernando Lopez |
@@ -87,8 +136,8 @@ export const Bitacora = () => {
                             </button>
                         </div>
                         <h5 className='text-center'>Laboratorios El Prado - Tegucigalpa</h5>
-                        <div class="modal-body">
-                            <div className="row justify-content-center mt-4">
+                        <div class="modal-body bg-dark">
+                            <div className="row justify-content-center mt-4 bg-light">
                                 <div className="col-md-8">
                                     <p>
                                         <strong>Estudiante:</strong> Fernando Lopez |
@@ -115,8 +164,8 @@ export const Bitacora = () => {
                             </button>
                         </div>
                         <h5 className='text-center'>Laboratorios Norte - San Pedro Sula</h5>
-                        <div class="modal-body">
-                            <div className="row justify-content-center mt-4">
+                        <div class="modal-body bg-dark">
+                            <div className="row justify-content-center mt-4 bg-light">
                                 <div className="col-md-8">
                                     <p>
                                         <strong>Estudiante:</strong> Fernando Lopez |
@@ -144,8 +193,8 @@ export const Bitacora = () => {
                             </button>
                         </div>
                         <h5 className='text-center'>Laboratorios Central - San Pedro Sula</h5>
-                        <div class="modal-body">
-                            <div className="row justify-content-center mt-4">
+                        <div class="modal-body bg-dark">
+                            <div className="row justify-content-center mt-4 bg-light">
                                 <div className="col-md-8">
                                     <p>
                                         <strong>Estudiante:</strong> Fernando Lopez |
@@ -172,8 +221,8 @@ export const Bitacora = () => {
                             </button>
                         </div>
                         <h5 className='text-center'>Laboratorios La Ceiba</h5>
-                        <div class="modal-body">
-                            <div className="row justify-content-center mt-4">
+                        <div class="modal-body bg-dark">
+                            <div className="row justify-content-center mt-4 bg-light">
                                 <div className="col-md-8">
                                     <p>
                                         <strong>Estudiante:</strong> Fernando Lopez |
