@@ -37,7 +37,7 @@ export const InicioLaboratorio = () => {
                   <a class="nav-link active" onClick={Inicio} >Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" onClick={Reservados} >Reservados</a>
+                  <a class="nav-link active" onClick={Reservados} >Mis Reservaciones</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" onClick={Bitacora} >Bitacora</a>

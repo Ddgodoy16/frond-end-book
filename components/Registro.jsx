@@ -32,12 +32,11 @@ export const Registro = () => {
     }
     return (
         <>
-            <div className="registro-background">
-
+            <div className="registro-background ">
                 <div className="d-flex justify-content-center mt-3">
-                    <div className="card">
+                    <div className="card  custom-input-width">
                         <img className="JaguarLogin2 " src={JaguarLogin1} alt="Logo" />
-                        <div className="card-body">
+                        <div className="card-body ">
                             <form>
                                 <h5 className=" text-center ">Ingresa tus datos</h5>
                                 <div className="form-floating mt-4 mb-3">
@@ -68,8 +67,7 @@ export const Registro = () => {
                                         <label className="form-check-label" htmlFor="maestro"> Maestro </label>
                                     </div>
                                 </div>
-
-
+                                
                                 <div className="d-flex flex-column align-items-center mt-4">
                                     <button className="btn btn-primary mb-3 w-100" onClick={handleClick}>
                                         Confirmar
